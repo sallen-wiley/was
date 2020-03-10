@@ -1,0 +1,54 @@
+// show/hide close button
+
+.dynamic-collapse-btn.collapsed {
+    .show-when-open {
+        display: none!important;
+    }
+    .show-when-closed {
+        display: initial;
+    }
+}
+.dynamic-collapse-btn:not(.collapsed) {
+    .show-when-open {
+        display: initial;
+    }
+    .show-when-closed {
+        display: none!important;
+    }
+}
+
+// animated chevron
+.collapse-chevron {
+    text-decoration: none;
+}
+a.collapse-chevron[aria-expanded], button.collapse-chevron[aria-expanded] {
+    .chevron {
+        transition-duration: .25s;
+        transition-property: transform;
+    }
+    &.label--show {
+        &:before {
+            content: "Hide\00a0";
+        }
+    }
+    &.label--more {
+        &:before {
+            content: "Less\00a0";
+        }
+    }
+}
+a.collapse-chevron[aria-expanded=false], button.collapse-chevron[aria-expanded=false] {
+    .chevron {
+        transform: rotate(180deg);
+    }
+    &.label--show {
+        &:before {
+            content: "Show\00a0";
+        }
+    }
+    &.label--more {
+        &:before {
+            content: "More\00a0";
+        }
+    }
+}

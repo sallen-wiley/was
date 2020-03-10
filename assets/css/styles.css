@@ -1,0 +1,151 @@
+/* mdi icon font utilities */
+
+.mdi {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1;
+  font-size: 24px;
+}
+
+.mdi.mdi-sm {
+  font-size: 18px;
+}
+
+.mdi.mdi-lg {
+  font-size: 36px;
+}
+
+.mdi.mdi-xl {
+  font-size: 48px;
+}
+
+/* short wiley style underline for headings */
+
+.short-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.short-underline::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  max-width: 4rem;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: inherit;
+  bottom: -0.2em;
+  left: 0;
+}
+
+a.short-underline::after {
+  transition-duration: 0.25s;
+  transition-property: max-width;
+}
+
+a.short-underline:hover::after {
+  max-width: 50%;
+}
+
+/* dropdown CTA icon toggle */
+
+.dropdown.show .show-when-open {
+  display: inline-block;
+}
+
+.dropdown .show-when-open {
+  display: none;
+}
+
+.dropdown.show .show-when-closed {
+  display: none;
+}
+
+.dropdown .show-when-closed {
+  display: inline-block;
+}
+
+/* modify placeholder text colour to work on dark background */
+
+.placeholder-text--white.form-control::placeholder {
+  color: rgba(255,255,255,0.75);
+}
+
+/* icon backgrounds */
+
+.bg-icon {
+  position: relative;
+}
+
+.bg-icon:before {
+  content: "";
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bg-icon.bg-icon--spectro:before {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTE2LjUsMjFDMTMuNSwyMSAxMi4zMSwxNi43NiAxMS4wNSwxMi4yOEMxMC4xNCw5LjA0IDksNSA3LjUsNUM0LjExLDUgNCwxMS45MyA0LDEySDJDMiwxMS42MyAyLjA2LDMgNy41LDNDMTAuNSwzIDExLjcxLDcuMjUgMTIuOTcsMTEuNzRDMTMuODMsMTQuOCAxNSwxOSAxNi41LDE5QzE5Ljk0LDE5IDIwLjAzLDEyLjA3IDIwLjAzLDEySDIyLjAzQzIyLjAzLDEyLjM3IDIxLjk3LDIxIDE2LjUsMjFaIiAvPjwvc3ZnPg==);
+}
+
+.bg-icon.bg-icon--equip:before {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTYsMjJBMywzIDAgMCwxIDMsMTlDMywxOC40IDMuMTgsMTcuODQgMy41LDE3LjM3TDksNy44MVY2QTEsMSAwIDAsMSA4LDVWNEEyLDIgMCAwLDEgMTAsMkgxNEEyLDIgMCAwLDEgMTYsNFY1QTEsMSAwIDAsMSAxNSw2VjcuODFMMjAuNSwxNy4zN0MyMC44MiwxNy44NCAyMSwxOC40IDIxLDE5QTMsMyAwIDAsMSAxOCwyMkg2TTUsMTlBMSwxIDAgMCwwIDYsMjBIMThBMSwxIDAgMCwwIDE5LDE5QzE5LDE4Ljc5IDE4LjkzLDE4LjU5IDE4LjgyLDE4LjQzTDE2LjUzLDE0LjQ3TDE0LDE3TDguOTMsMTEuOTNMNS4xOCwxOC40M0M1LjA3LDE4LjU5IDUsMTguNzkgNSwxOU0xMywxMEExLDEgMCAwLDAgMTIsMTFBMSwxIDAgMCwwIDEzLDEyQTEsMSAwIDAsMCAxNCwxMUExLDEgMCAwLDAgMTMsMTBaIiAvPjwvc3ZnPg==);
+}
+
+.bg-icon.bg-icon--sepsci:before {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTEyLDE5LjU4VjE5LjU4QzEwLjQsMTkuNTggOC44OSwxOC45NiA3Ljc2LDE3LjgzQzYuNjIsMTYuNjkgNiwxNS4xOSA2LDEzLjU4QzYsMTIgNi42MiwxMC40NyA3Ljc2LDkuMzRMMTIsNS4xTTE3LjY2LDcuOTNMMTIsMi4yN1YyLjI3TDYuMzQsNy45M0MzLjIyLDExLjA1IDMuMjIsMTYuMTIgNi4zNCwxOS4yNEM3LjksMjAuOCA5Ljk1LDIxLjU4IDEyLDIxLjU4QzE0LjA1LDIxLjU4IDE2LjEsMjAuOCAxNy42NiwxOS4yNEMyMC43OCwxNi4xMiAyMC43OCwxMS4wNSAxNy42Niw3LjkzWiIgLz48L3N2Zz4=);
+}
+
+.bg-icon.bg-icon--micro:before {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTkuNDYsNi4yOEwxMS4wNSw5QzguNDcsOS4yNiA2LjUsMTEuNDEgNi41LDE0QTUsNSAwIDAsMCAxMS41LDE5QzEzLjU1LDE5IDE1LjMxLDE3Ljc3IDE2LjA4LDE2SDEzLjVWMTRIMjEuNVYxNkgxOS4yNUMxOC44NCwxNy41NyAxNy45NywxOC45NiAxNi43OSwyMEgxOS41VjIySDMuNVYyMEg2LjIxQzQuNTUsMTguNTMgMy41LDE2LjM5IDMuNSwxNEMzLjUsMTAuMzcgNS45Niw3LjIgOS40Niw2LjI4TTEyLjc0LDIuMDdMMTMuNSwzLjM3TDE0LjM2LDIuODdMMTcuODYsOC45M0wxNC4zOSwxMC45M0wxMC44OSw0Ljg3TDExLjc2LDQuMzdMMTEsMy4wN0wxMi43NCwyLjA3WiIgLz48L3N2Zz4=);
+}
+
+.bg-icon.bg-icon--labauto:before {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTEyLDE4QTYsNiAwIDAsMSA2LDEyQzYsMTEgNi4yNSwxMC4wMyA2LjcsOS4yTDUuMjQsNy43NEM0LjQ2LDguOTcgNCwxMC40MyA0LDEyQTgsOCAwIDAsMCAxMiwyMFYyM0wxNiwxOUwxMiwxNU0xMiw0VjFMOCw1TDEyLDlWNkE2LDYgMCAwLDEgMTgsMTJDMTgsMTMgMTcuNzUsMTMuOTcgMTcuMywxNC44TDE4Ljc2LDE2LjI2QzE5LjU0LDE1LjAzIDIwLDEzLjU3IDIwLDEyQTgsOCAwIDAsMCAxMiw0WiIgLz48L3N2Zz4=);
+}
+
+@media (min-width: 992px) {
+  #content-view--right-rail {
+    max-width: 400px;
+  }
+}
+
+/* crop or fit images to div with varying height */
+
+img.crop {
+  object-fit: cover;
+  height: 100%;
+  max-height: inherit;
+  width: 100%;
+  max-width: inherit;
+}
+
+img.fit {
+  object-fit: contain;
+  height: 100%;
+  max-height: inherit;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .right-rail {
+    max-width: 400px;
+  }
+}
+
+.dropdown-item {
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+}
+
+.calendar-digit {
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+

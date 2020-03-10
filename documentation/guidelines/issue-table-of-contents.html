@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Wiley Analytical Science Designs</title>
+    <meta name="twitter:description" content="PLACEHOLDER!">
+    <meta name="twitter:image" content="https://was.bss.design/assets/img/opengraph/was--og-image.jpg">
+    <meta property="og:image" content="https://was.bss.design/assets/img/opengraph/was--og-image.jpg">
+    <meta name="description" content="A space to share page designs, styling guides, and other supporting documentation to help develop the Wiley Analytical Science product.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wiley Analytical Science">
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Serif+Pro">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../assets/css/dynamic-collapse-btn.compiled.css">
+    <link rel="stylesheet" href="../../assets/css/menu.compiled.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="stylesheet" href="../../assets/css/event-card.compiled.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+</head>
+
+<body>
+    <header class="sticky-top">
+        <div class="shadow-sm">
+            <div class="bg-white">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-between align-items-stretch">
+                        <div class="d-inline-flex align-items-center my-2"><a class="text-decoration-none" href="/"><span class="d-sm-none h4 mb-0 text-nowrap font-weight-bold">W.A.S.&nbsp;<span class="font-weight-light">Designs</span></span><span class="d-none d-sm-inline h4 mb-0 text-nowrap font-weight-bold">Wiley Analytical Science&nbsp;<span class="font-weight-light">Designs</span></span></a></div>
+                        <div
+                            class="d-none d-lg-inline-flex align-items-center">
+                            <ul class="nav nav-pills" id="was-designs-nav">
+                                <li class="nav-item"><a class="nav-link" href="https://was.bss.design/#design-documentation">Design Documentation</a></li>
+                                <li class="nav-item"><a class="nav-link" href="https://was.bss.design/#journey-map">Journey Map</a></li>
+                                <li class="nav-item"><a class="nav-link" href="https://was.bss.design/#page-designs">Page Designs</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main>
+        <section style="background-image: url(&quot;https://source.unsplash.com/1LpeJ-6wtMQ/1920x300&quot;);background-repeat: no-repeat;background-size: cover;background-position: center;">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="py-3">
+                            <div class="text-right mb-1"><span class="badge badge-primary">guidelines</span></div>
+                            <h1 class="text-right serif"><span class="bg-white-90">Issue table of contents</span></h1>
+                            <p class="lead text-right"><span class="bg-white-90">How to mark up the table of contents for issues</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <section id="general-rules" class="mb-3">
+                            <h2>Elements</h2>
+                            <p>A table of contents (TOC) can include a range of HTML elements in different combinations. Below is a list of the most used and instructions on how to implement them.</p>
+                        </section>
+                        <ul>
+                            <li>Main section heading</li>
+                            <li>Section sub-heading</li>
+                            <li>Article title</li>
+                            <li>Author(s)</li>
+                            <li>Page range</li>
+                        </ul>
+                        <section id="main-section-heading" class="mb-3">
+                            <h2>Main section heading</h2>
+                            <p>Main section headings come after the default heading that always appears, "Contents". To keep the structure of the HTML semantically sound, we use the H3 heading for issue section headings. We use the H3 heading because the
+                                page already includes an H1 heading (the issue name) and an H2 heading ("Contents" which introduces the TOC).</p>
+                            <div class="p-3 border mb-3">
+                                <h3 class="serif text-muted">Main section heading</h3><code>&lt;h3 class="serif text-muted"&gt;Main section heading&lt;/h3&gt;</code></div>
+                        </section>
+                        <section id="section-sub-heading" class="mb-3">
+                            <h2>Section sub-heading</h2>
+                            <p>Sub-headings are available if required.&nbsp;</p>
+                            <div class="p-3 border mb-3">
+                                <h3 class="serif text-muted">Main section heading</h3>
+                                <h4 class="serif">Section sub-heading</h4><code>&lt;h4 class="serif"&gt;Section sub-heading&lt;/h4&gt;</code></div>
+                        </section>
+                        <section id="content-title" class="mb-3">
+                            <h2>Content title</h2>
+                            <p>Marking up the actual content title</p>
+                            <div class="p-3 border mb-3">
+                                <h3 class="serif text-muted">Main section heading</h3>
+                                <h4 class="serif">Section sub-heading</h4>
+                                <p class="lead">This is a title for an article or news piece</p><code>&lt;p class="lead mb-0"&gt;This is a title for an article or news piece&lt;/p&gt;</code></div>
+                        </section>
+                        <section id="authors" class="mb-3">
+                            <h2>Author(s)</h2>
+                            <p>Marking up one or more authors</p>
+                            <div class="p-3 border mb-3">
+                                <h3 class="serif text-muted">Main section heading</h3>
+                                <h4 class="serif">Section sub-heading</h4>
+                                <p class="lead mb-0">This is a title for an article or news piece</p>
+                                <p class="text-muted">S. Allen, A. Scott, et al.</p><code>&lt;p class="text-muted mb-0"&gt;S. Allen, A. Scott, et al.&lt;/p&gt;</code></div>
+                        </section>
+                        <section id="page-range" class="mb-3">
+                            <h2>Page range</h2>
+                            <p>Marking up a page range. This element is always required to help space the elements.</p>
+                            <div class="p-3 border mb-3">
+                                <h3 class="serif text-muted">Main section heading</h3>
+                                <h4 class="serif">Section sub-heading</h4>
+                                <p class="lead mb-0">This is a title for an article or news piece</p>
+                                <p class="text-muted mb-0">S. Allen, A. Scott, et al.</p>
+                                <p>Pages 3-7</p><code>&lt;p&gt;Pages 3-7&lt;/p&gt;</code></div>
+                        </section>
+                        <section id="page-range" class="mb-3">
+                            <h2>Example</h2>
+                            <p>A mixture of elements to form an example TOC</p>
+                            <div class="p-3 border mb-3">
+                                <h3 class="serif text-muted">Main section heading</h3>
+                                <h4 class="serif">Section sub-heading</h4>
+                                <p class="lead mb-0">This is a title for an article or news piece</p>
+                                <p class="text-muted mb-0">S. Allen, A. Scott, et al.</p>
+                                <p>Pages 3-7</p>
+                                <p class="lead mb-0">This is a title for a different news piece without authors</p>
+                                <p>Pages 8-10</p>
+                                <h4 class="serif">Section sub-heading</h4>
+                                <p class="lead mb-0">This is a title for a different news piece without authors</p>
+                                <p>Pages 8-10</p><code>
+    &lt;h3 class=&quot;serif text-muted&quot;&gt;Main section heading&lt;/h3&gt;
+    <br>
+    &lt;h4 class=&quot;serif&quot;&gt;Section sub-heading&lt;/h4&gt;
+    <br>
+    &lt;p class=&quot;lead mb-0&quot;&gt;This is a title for an article or news piece&lt;/p&gt;
+    <br>
+    &lt;p class=&quot;text-muted mb-0&quot;&gt;S. Allen, A. Scott, et al.&lt;/p&gt;
+    <br>
+    &lt;p&gt;Pages 3-7&lt;/p&gt;
+    <br>
+    &lt;p class=&quot;lead mb-0&quot;&gt;This is a title for a different news piece without authors&lt;/p&gt;
+    <br>
+    &lt;p&gt;Pages 8-10&lt;/p&gt; &lt;h4 class=&quot;serif&quot;&gt;Section sub-heading&lt;/h4&gt;
+    <br>
+    &lt;p class=&quot;lead mb-0&quot;&gt;This is a title for a different news piece without authors&lt;/p&gt;
+    <br>
+    &lt;p&gt;Pages 8-10&lt;/p&gt;
+</code></div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-light bg-dark py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h2 class="h6">Contact</h2>
+                    <p>This styleguide is for the purpose of reviewing and communicating designs and related information to the Wiley Analytical Science product team and stakeholders.</p>
+                    <p>If you have questions relating to anything on this site, please contact Stuart Allen at sallen@wiley.com</p>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-auto order-lg-2"><img class="d-block float-lg-right mx-auto my-3 mt-lg-0" src="../../assets/img/wiley-wordmark-white.svg" width="120" alt="Wiley"></div>
+                <div class="col-12 col-lg-auto order-lg-1">
+                    <p class="text-lg-left text-center"><small>Copyright © 1999-2020 John Wiley &amp; Sons, Inc. All rights reserved</small></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+    <script src="../../assets/js/lightbox-options.js"></script>
+    <script src="../../assets/js/sitemap.js"></script>
+    <script src="../../assets/js/menu.js"></script>
+    <script src="../../assets/js/responsive-collapse.js"></script>
+    <script src="../../assets/js/sign-in-register.js"></script>
+    <script src="../../assets/js/toasts.js"></script>
+    <script src="../../assets/js/enable-tooltips.js"></script>
+    <script src="../../assets/js/show-modal-on-load.js"></script>
+    <script src="../../assets/js/form--state-select.js"></script>
+    <script src="../../assets/js/form--subject-select.js"></script>
+    <script src="../../assets/js/card-layout-engine.js"></script>
+    <script src="../../assets/js/comment-collection.js"></script>
+    <script src="../../assets/js/edit-search-term.js"></script>
+    <script src="../../assets/js/collapsing-section-on-scroll.js"></script>
+</body>
+
+</html>

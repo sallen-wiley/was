@@ -1,0 +1,44 @@
+.dynamic-collapse-btn.collapsed .show-when-open {
+  display: none !important;
+}
+
+.dynamic-collapse-btn.collapsed .show-when-closed {
+  display: initial;
+}
+
+.dynamic-collapse-btn:not(.collapsed) .show-when-open {
+  display: initial;
+}
+
+.dynamic-collapse-btn:not(.collapsed) .show-when-closed {
+  display: none !important;
+}
+
+.collapse-chevron {
+  text-decoration: none;
+}
+
+a.collapse-chevron[aria-expanded] .chevron, button.collapse-chevron[aria-expanded] .chevron {
+  transition-duration: .25s;
+  transition-property: transform;
+}
+
+a.collapse-chevron[aria-expanded].label--show:before, button.collapse-chevron[aria-expanded].label--show:before {
+  content: "Hide\00a0";
+}
+
+a.collapse-chevron[aria-expanded].label--more:before, button.collapse-chevron[aria-expanded].label--more:before {
+  content: "Less\00a0";
+}
+
+a.collapse-chevron[aria-expanded=false] .chevron, button.collapse-chevron[aria-expanded=false] .chevron {
+  transform: rotate(180deg);
+}
+
+a.collapse-chevron[aria-expanded=false].label--show:before, button.collapse-chevron[aria-expanded=false].label--show:before {
+  content: "Show\00a0";
+}
+
+a.collapse-chevron[aria-expanded=false].label--more:before, button.collapse-chevron[aria-expanded=false].label--more:before {
+  content: "More\00a0";
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Wiley Analytical Science Designs</title>
+    <meta name="twitter:description" content="PLACEHOLDER!">
+    <meta name="twitter:image" content="https://was.bss.design/assets/img/opengraph/was--og-image.jpg">
+    <meta property="og:image" content="https://was.bss.design/assets/img/opengraph/was--og-image.jpg">
+    <meta name="description" content="A space to share page designs, styling guides, and other supporting documentation to help develop the Wiley Analytical Science product.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wiley Analytical Science">
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Serif+Pro">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../assets/css/dynamic-collapse-btn.compiled.css">
+    <link rel="stylesheet" href="../../assets/css/menu.compiled.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="stylesheet" href="../../assets/css/event-card.compiled.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+</head>
+
+<body>
+    <header class="sticky-top">
+        <div class="shadow-sm">
+            <div class="bg-white">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-between align-items-stretch">
+                        <div class="d-inline-flex align-items-center my-2"><a class="text-decoration-none" href="/"><span class="d-sm-none h4 mb-0 text-nowrap font-weight-bold">W.A.S.&nbsp;<span class="font-weight-light">Designs</span></span><span class="d-none d-sm-inline h4 mb-0 text-nowrap font-weight-bold">Wiley Analytical Science&nbsp;<span class="font-weight-light">Designs</span></span></a></div>
+                        <div
+                            class="d-none d-lg-inline-flex align-items-center">
+                            <ul class="nav nav-pills" id="was-designs-nav">
+                                <li class="nav-item"><a class="nav-link" href="https://was.bss.design/#design-documentation">Design Documentation</a></li>
+                                <li class="nav-item"><a class="nav-link" href="https://was.bss.design/#journey-map">Journey Map</a></li>
+                                <li class="nav-item"><a class="nav-link" href="https://was.bss.design/#page-designs">Page Designs</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main>
+        <section style="background-image: url(&quot;https://source.unsplash.com/McLN5LPWevQ/1920x300&quot;);background-repeat: no-repeat;background-size: cover;background-position: center;">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="py-3">
+                            <div class="text-right mb-1"><span class="badge badge-primary">Components</span></div>
+                            <h1 class="display-4 text-right serif"><span class="bg-white-90">Collapsing Elements</span></h1>
+                            <p class="lead text-right"><span class="bg-white-90">Documentation, examples, and uses for collapsing elements</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <section id="general-rules" class="mb-3">
+                            <h2>General Rules</h2>
+                            <p>Collapsing elements general take on two forms. The first is a simple 'show and hide' section that can be used to toggle the visibility of content by a button. The second is a series of collapsing sections bundled together that
+                                only ever allows a single section to be 'open' at a time. More commonly known as an accordion.&nbsp;</p>
+                            <div class="alert alert-info" role="alert"><small>Note</small>
+                                <p>Collapsing content can be good for pages with lots of copy. However, closed sections cannot be searched with the default browser search function. Ironically, it is long-form content that invites the user to search. For
+                                    this reason, putting important content into collapsing sections is not advised.&nbsp;</p>
+                            </div>
+                        </section>
+                        <section id="single-collapse" class="mb-3">
+                            <h2>Single collapse</h2>
+                            <p>Whilst the arrow and alternating copy are optional, the message should be clear to the user that content can be revealed and hidden upon interaction. &nbsp;</p>
+                            <div class="label--show collapse-chevron"><a class="btn btn-primary d-inline-flex" data-toggle="collapse" aria-expanded="false" aria-controls="collapse-1" href="#collapse-1" role="button">Content<i class="material-icons ml-2 chevron">keyboard_arrow_up</i></a>
+                                <div class="collapse"
+                                    id="collapse-1">
+                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                                        to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                                        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br></p>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="accordion" class="mb-3">
+                            <h2>Accordion</h2>
+                            <p>One purpose of an accordion is to allow the user to maintain an overview of the available sections without having to scroll up and down, too much.</p>
+                            <div role="tablist" id="accordion-1" class="collapse-chevron">
+                                <div class="card border-0">
+                                    <div class="card-header p-0 border-white" role="tab">
+                                        <h5 class="mb-0"><a class="d-flex justify-content-between text-decoration-none btn btn-primary" data-toggle="collapse" aria-expanded="true" aria-controls="accordion-1 .item-1" href="#accordion-1 .item-1">Accordion Item<i class="material-icons ml-2 chevron">keyboard_arrow_up</i></a></h5>
+                                    </div>
+                                    <div class="collapse show item-1" role="tabpanel" data-parent="#accordion-1">
+                                        <div class="card-body border">
+                                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card border-0">
+                                    <div class="card-header p-0 border-white" role="tab">
+                                        <h5 class="mb-0"><a class="d-flex justify-content-between text-decoration-none btn btn-primary" data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-2" href="#accordion-1 .item-2">Accordion Item<i class="material-icons ml-2 chevron">keyboard_arrow_up</i></a></h5>
+                                    </div>
+                                    <div class="collapse item-2" role="tabpanel" data-parent="#accordion-1">
+                                        <div class="card-body border">
+                                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card border-0">
+                                    <div class="card-header p-0 border-white" role="tab">
+                                        <h5 class="mb-0"><a class="d-flex justify-content-between text-decoration-none btn btn-primary" data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-3" href="#accordion-1 .item-3">Accordion Item<i class="material-icons ml-2 chevron">keyboard_arrow_up</i></a></h5>
+                                    </div>
+                                    <div class="collapse item-3" role="tabpanel" data-parent="#accordion-1">
+                                        <div class="card-body border">
+                                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card border-0">
+                                    <div class="card-header p-0 border-white" role="tab">
+                                        <h5 class="mb-0"><a class="d-flex justify-content-between text-decoration-none btn btn-primary" data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-4" href="#accordion-1 .item-4">Accordion Item<i class="material-icons ml-2 chevron">keyboard_arrow_up</i></a></h5>
+                                    </div>
+                                    <div class="collapse item-4" role="tabpanel" data-parent="#accordion-1">
+                                        <div class="card-body border">
+                                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-light bg-dark py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h2 class="h6">Contact</h2>
+                    <p>This styleguide is for the purpose of reviewing and communicating designs and related information to the Wiley Analytical Science product team and stakeholders.</p>
+                    <p>If you have questions relating to anything on this site, please contact Stuart Allen at sallen@wiley.com</p>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-auto order-lg-2"><img class="d-block float-lg-right mx-auto my-3 mt-lg-0" src="../../assets/img/wiley-wordmark-white.svg" width="120" alt="Wiley"></div>
+                <div class="col-12 col-lg-auto order-lg-1">
+                    <p class="text-lg-left text-center"><small>Copyright © 1999-2020 John Wiley &amp; Sons, Inc. All rights reserved</small></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+    <script src="../../assets/js/lightbox-options.js"></script>
+    <script src="../../assets/js/sitemap.js"></script>
+    <script src="../../assets/js/menu.js"></script>
+    <script src="../../assets/js/responsive-collapse.js"></script>
+    <script src="../../assets/js/sign-in-register.js"></script>
+    <script src="../../assets/js/toasts.js"></script>
+    <script src="../../assets/js/enable-tooltips.js"></script>
+    <script src="../../assets/js/show-modal-on-load.js"></script>
+    <script src="../../assets/js/form--state-select.js"></script>
+    <script src="../../assets/js/form--subject-select.js"></script>
+    <script src="../../assets/js/card-layout-engine.js"></script>
+    <script src="../../assets/js/comment-collection.js"></script>
+    <script src="../../assets/js/edit-search-term.js"></script>
+    <script src="../../assets/js/collapsing-section-on-scroll.js"></script>
+</body>
+
+</html>
