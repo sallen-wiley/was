@@ -324,7 +324,7 @@
                                 <div class="text-right mb-2"><span class="p-1 bg-primary text-white small">Contents</span></div>
                                 <div>
                                     <div class="list-group list-group-flush" id="article-toc-nav"><a class="list-group-item list-group-item-action d-inline-flex align-items-center py-1 px-2" href="#content-introduction"><span>Unrestricted content header</span></a><a class="list-group-item list-group-item-action d-inline-flex align-items-center py-1 px-2"
-                                            href="#content-introduction"><span>Restricted content header</span></a><a class="list-group-item list-group-item-action d-inline-flex align-items-center py-1 px-2" href="#content-download"><span class="mdi mdi-download mr-2"></span><span>Download</span></a>
+                                            href="#content-introduction"><span>Restricted content header</span></a><a class="list-group-item list-group-item-action d-inline-flex align-items-center py-1 px-2" href="#content-download"><span class="mdi mdi-download mr-2"></span><span>Download the EKB</span></a>
                                         <a
                                             class="list-group-item list-group-item-action d-inline-flex align-items-center py-1 px-2" href="#content-contents"><span class="mdi mdi-format-list-bulleted-square mr-2"></span><span>Topics</span></a><a class="list-group-item list-group-item-action d-inline-flex align-items-center py-1 px-2" href="#content-technote"><span class="mdi mdi-information mr-2"></span><span>Technology note</span></a>
                                             <a
@@ -335,7 +335,7 @@
                             <div class="mb-1">
                                 <div class="text-right mb-2"><span class="p-1 bg-primary text-white small">Tools</span></div>
                                 <div>
-                                    <div class="list-group list-group-flush"><a class="list-group-item list-group-item-action d-inline-flex align-items-center py-1 px-2 collapse-chevron border-bottom" href="#" data-toggle="collapse" data-target="#share-options" aria-expanded="false"><span class="mr-2 mdi mdi-share-variant"></span><span class="flex-grow-1">Share</span><span class="mdi mdi-chevron-up chevron"></span></a></div>
+                                    <div class="list-group list-group-flush"><a class="list-group-item list-group-item-action d-inline-flex align-items-center py-1 px-2 collapse-chevron border-bottom-0" href="#" data-toggle="collapse" data-target="#share-options" aria-expanded="false"><span class="mr-2 mdi mdi-share-variant"></span><span class="flex-grow-1">Share</span><span class="mdi mdi-chevron-up chevron"></span></a></div>
                                     <div
                                         id="share-options" class="collapse">
                                         <div class="list-group list-group-flush"><a class="list-group-item list-group-item-action d-inline-flex align-items-center py-1 px-2 text-facebook" href="#" data-toggle="modal" data-target="#ad-unit--interstitial" style="color: #0077B5;"><span class="mr-2 mdi mdi-facebook"></span><span>Facebook</span></a>
@@ -346,13 +346,12 @@
                                                     href="#" data-toggle="modal" data-target="#ad-unit--interstitial"><span class="mr-2 mdi mdi-email"></span><span>Email</span></a><a class="list-group-item list-group-item-action d-inline-flex align-items-center py-1 px-2"
                                                     href="#" data-toggle="modal" data-target="#ad-unit--interstitial"><span class="mr-2 mdi mdi-plus-box"></span><span>More services...</span></a></div>
                                 </div>
-                                <div class="list-group list-group-flush"><a class="list-group-item list-group-item-action d-inline-flex align-items-center py-1 px-2" href="#"><span class="mr-2 mdi mdi-calendar-plus"></span><span>Add to calendar</span></a></div>
                             </div>
                     </div>
                     </aside>
                 </div>
                 <div class="col">
-                    <section id="article-header" class="mb-xl-3 border-xl-bottom">
+                    <section class="mb-xl-3 border-xl-bottom">
                         <div>
                             <div class="row">
                                 <div class="col">
@@ -363,7 +362,7 @@
                                             class="d-inline-flex"><span class="text-nowrap text-muted">2 July 2019</span></div>
                                 </div>
                                 <h1 class="serif mb-0"><span class="text-secondary">Focused Ion Beam-Scanning Electron Microscopy (Second Edition)</span></h1>
-                                <p class="lead mb-2">This is a subtitle line if required</p>
+                                <p class="lead mb-2">{{subtitle if present in DO}}</p>
                                 <section>
                                     <div class="d-flex align-items-start flex-wrap mb-2">
                                         <div class="d-flex flex-column mr-1"><button class="btn btn-link btn-sm d-inline-flex align-items-center text-decoration-none p-0" type="button" data-toggle="modal" data-target="#author-correspondence"><span>Author Name</span><i class="material-icons mdi mdi-sm ml-1">mail</i></button></div>
@@ -382,18 +381,14 @@
                     <div class="d-flex justify-content-between align-items-center border-bottom border-top">
                         <div class="ml-2 ml-lg-0">
                             <div class="dropdown"><button class="btn btn-link dropdown-toggle p-2" data-toggle="dropdown" aria-expanded="false" type="button">Sections</button>
-                                <div class="dropdown-menu" role="menu" style="overflow-y: auto;overflow-x: hidden;text-overflow: ellipsis;"><a class="dropdown-item d-inline-flex align-items-center" role="presentation" href="#"><span>Abstract</span></a><a class="dropdown-item d-inline-flex align-items-center" role="presentation" href="#"><span>Introduction</span></a>
+                                <div class="dropdown-menu" role="menu" style="overflow-y: auto;overflow-x: hidden;text-overflow: ellipsis;"><a class="dropdown-item d-inline-flex align-items-center" role="presentation" href="#"><span>Unrestricted content header</span></a><a class="dropdown-item d-inline-flex align-items-center" role="presentation" href="#"><span>Restricted content header</span></a>
                                     <a
-                                        class="dropdown-item d-inline-flex align-items-center" role="presentation" href="#"><span>Piezo power</span></a><a class="dropdown-item d-inline-flex align-items-center" role="presentation" href="#"><span>Ahead of the curve</span></a><a class="dropdown-item d-inline-flex align-items-center" role="presentation"
-                                            href="#"><span>A natural home</span></a><a class="dropdown-item d-inline-flex align-items-center" role="presentation" href="#"><span>Summary</span></a><a class="dropdown-item d-flex flex-grow-0 justify-content-start align-items-center flex-nowrap"
-                                            role="presentation"><i class="material-icons mr-2">library_books</i><span>Finding your placeFinding your placeFinding your placeFinding your place</span></a><a class="dropdown-item d-inline-flex align-items-center"
-                                            role="presentation" href="#"><i class="material-icons mr-2">email</i><span>Contact</span></a><a class="dropdown-item d-inline-flex align-items-center" role="presentation" href="#"><i class="material-icons mr-2">link</i><span>References</span></a>
+                                        class="dropdown-item d-flex flex-grow-0 justify-content-start align-items-center flex-nowrap" role="presentation"><span class="mdi mdi-download mr-2"></span><span>Download the EKB</span></a><a class="dropdown-item d-inline-flex align-items-center" role="presentation" href="#"><span class="mdi mdi-format-list-bulleted-square mr-2"></span><span>Topics</span></a>
                                         <a
-                                            class="dropdown-item d-inline-flex align-items-center" role="presentation" href="#"><i class="material-icons mr-2">device_hub</i><span>Related</span></a>
-                                </div>
+                                            class="dropdown-item d-inline-flex align-items-center" role="presentation" href="#"><span class="mdi mdi-information mr-2"></span><span>Technology note</span></a><a class="dropdown-item d-inline-flex align-items-center" role="presentation" href="#"><i class="material-icons mr-2">device_hub</i><span>Related</span></a></div>
                             </div>
                         </div>
-                        <div class="d-inline-flex mr-2 mr-lg-0"><button class="btn btn-link d-inline-flex align-items-center text-decoration-none p-2" type="button"><span class="mdi mdi-download mr-sm-2"></span><span class="text-left d-none d-sm-inline">Download</span></button>
+                        <div class="d-inline-flex mr-2 mr-lg-0">
                             <div class="dropdown"><button class="btn btn-link d-inline-flex align-items-center text-decoration-none p-2" type="button" data-toggle="dropdown" aria-expanded="false"><i class="material-icons mr-sm-2">share</i><span class="text-left d-none d-sm-inline">Share</span></button>
                                 <div
                                     class="dropdown-menu dropdown-menu-right"><a class="d-flex align-items-center dropdown-item text-twitter" href="#"><span class="mr-2 mdi mdi-twitter"></span><span>Twitter</span></a><a class="d-flex align-items-center dropdown-item" href="#" style="color: #0077B5;"><span class="mr-2 mdi mdi-linkedin"></span><span>LinkedIn</span></a>

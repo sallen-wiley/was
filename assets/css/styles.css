@@ -149,3 +149,9 @@ img.fit {
   border: 1px solid transparent;
 }
 
+/* min height for event card tiles */
+
+.event-list .text-white.d-flex.flex-column.justify-content-between.p-3.h-100 {
+  min-height: 150px;
+}
+
