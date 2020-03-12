@@ -193,6 +193,12 @@
         <loc>https://was.bss.design/improvements/events/all-events--upcoming--search-results.html</loc>
     </url>
     <url>
+        <loc>https://was.bss.design/improvements/events/light-microscopy.html</loc>
+    </url>
+    <url>
+        <loc>https://was.bss.design/improvements/events/microscopy.html</loc>
+    </url>
+    <url>
         <loc>https://was.bss.design/improvements/events/search-results.html</loc>
     </url>
     <url>
@@ -203,6 +209,9 @@
     </url>
     <url>
         <loc>https://was.bss.design/improvements/events/was-home--upcoming-events-widget--2-events.html</loc>
+    </url>
+    <url>
+        <loc>https://was.bss.design/improvements/events/was-home--upcoming-events-widget--no-events.html</loc>
     </url>
     <url>
         <loc>https://was.bss.design/improvements/events/was-home--upcoming-events-widget--single-event.html</loc>
