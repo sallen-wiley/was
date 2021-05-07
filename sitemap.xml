@@ -1,333 +1,387 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://was.bss.design/account/communication.html</loc>
+        <loc>https://sallen-wiley.github.io/was/account/communication.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/account/profile.html</loc>
+        <loc>https://sallen-wiley.github.io/was/account/profile.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/administration/log-in.html</loc>
+        <loc>https://sallen-wiley.github.io/was/administration/log-in.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/administration/registration.html</loc>
+        <loc>https://sallen-wiley.github.io/was/administration/registration.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/administration/registration--success.html</loc>
+        <loc>https://sallen-wiley.github.io/was/administration/registration--success.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/administration/request-password-reset.html</loc>
+        <loc>https://sallen-wiley.github.io/was/administration/request-password-reset.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/administration/request-password-reset--confirmation.html</loc>
+        <loc>https://sallen-wiley.github.io/was/administration/request-password-reset--confirmation.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/administration/reset-password.html</loc>
+        <loc>https://sallen-wiley.github.io/was/administration/reset-password.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/content-views/article/access-denied.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/article/access-denied.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/content-views/article/full-text.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/article/full-text.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/content-views/ekb/accept-terms.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/ekb/accept-terms.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/content-views/ekb/access-denied.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/ekb/access-denied.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/content-views/ekb/complete-form.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/ekb/complete-form.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/content-views/ekb/full-text.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/ekb/full-text.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/content-views/ekb/successfully-submitted.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/ekb/sponsored--ebook.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/content-views/event/full-text.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/ekb/sponsored--generic.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/content-views/event/full-text--uk.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/ekb/sponsored--whitepaper.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/content-views/news/access-denied.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/ekb/successfully-submitted.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/content-views/news/full-text.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/event/full-text.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/content-views/sponsor/full-text.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/event/full-text--uk.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/content-views/webinar/webinar--active.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/news/access-denied.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/content-views/webinar/webinar--ended.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/news/full-text.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/content-views/whitepaper/full-text.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/sponsor/full-text.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/documentation/components/buttons.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/webinar/webinar--active.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/documentation/components/collapse.html</loc>
+        <loc>https://sallen-wiley.github.io/was/content-views/webinar/webinar--ended.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/documentation/components/forms.html</loc>
+        <loc>https://sallen-wiley.github.io/was/documentation/components/buttons.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/documentation/components/modals.html</loc>
+        <loc>https://sallen-wiley.github.io/was/documentation/components/collapse.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/documentation/content/colors.html</loc>
+        <loc>https://sallen-wiley.github.io/was/documentation/components/forms.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/documentation/content/iconography.html</loc>
+        <loc>https://sallen-wiley.github.io/was/documentation/components/modals.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/documentation/content/images.html</loc>
+        <loc>https://sallen-wiley.github.io/was/documentation/content/colors.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/documentation/content/typography.html</loc>
+        <loc>https://sallen-wiley.github.io/was/documentation/content/iconography.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/documentation/guidelines/issue-table-of-contents.html</loc>
+        <loc>https://sallen-wiley.github.io/was/documentation/content/images.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/documentation/widgets/content-cards.html</loc>
+        <loc>https://sallen-wiley.github.io/was/documentation/content/typography.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/emails/authentication-code.html</loc>
+        <loc>https://sallen-wiley.github.io/was/documentation/guidelines/issue-table-of-contents.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/emails/password-reset.html</loc>
+        <loc>https://sallen-wiley.github.io/was/documentation/widgets/content-cards.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/emails/password-updated.html</loc>
+        <loc>https://sallen-wiley.github.io/was/emails/authentication-code.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/emails/verify-email.html</loc>
+        <loc>https://sallen-wiley.github.io/was/emails/password-reset.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/general/404.html</loc>
+        <loc>https://sallen-wiley.github.io/was/emails/password-updated.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/general/confirm-verification.html</loc>
+        <loc>https://sallen-wiley.github.io/was/emails/verify-email.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/general/cookie-message.html</loc>
+        <loc>https://sallen-wiley.github.io/was/general/404.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/general/delete-account.html</loc>
+        <loc>https://sallen-wiley.github.io/was/general/confirm-verification.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/general/generic-page.html</loc>
+        <loc>https://sallen-wiley.github.io/was/general/cookie-message.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/general/interstitial-ad.html</loc>
+        <loc>https://sallen-wiley.github.io/was/general/delete-account.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/general/maintenance.html</loc>
+        <loc>https://sallen-wiley.github.io/was/general/generic-page.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/general/newsletter-success.html</loc>
+        <loc>https://sallen-wiley.github.io/was/general/interstitial-ad.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/general/signed-in.html</loc>
+        <loc>https://sallen-wiley.github.io/was/general/maintenance.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/general/site-alert.html</loc>
+        <loc>https://sallen-wiley.github.io/was/general/newsletter-success.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/general/sponsors.html</loc>
+        <loc>https://sallen-wiley.github.io/was/general/signed-in.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/general/unplanned-outage.html</loc>
+        <loc>https://sallen-wiley.github.io/was/general/site-alert.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/advertising/interstitial-ad.html</loc>
+        <loc>https://sallen-wiley.github.io/was/general/sponsors.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/content-views/article/full-text--big-header.html</loc>
+        <loc>https://sallen-wiley.github.io/was/general/unplanned-outage.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/content-views/article/full-text--no-feature.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/about-the-author/author-profile.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/content-views/article/full-text--small-header.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/about-the-author/author-profile--multiple.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/documentation/widgets/layout-engine.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/about-the-author/author-results.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/ekb/was-home--latest-ekb-widget.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/about-the-author/full-author-profile.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/emails/confirm-newsletter.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/about-the-author/full-author-profile--multiple.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/emails/download-and-register.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/about-the-author/full-author-profile--no-image.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/events/all-events--ondemand.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/about-the-author/light-author-profile.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/events/all-events--ondemand--applied-filters.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/about-the-author/search-results.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/events/all-events--ondemand--search-results.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/advertising/interstitial-ad.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/events/all-events--upcoming.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/article-summary/full-text.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/events/all-events--upcoming--applied-filters.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/buyers-guide/all-companies.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/events/all-events--upcoming--applied-filters--date.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/buyers-guide/all-companies--search.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/events/all-events--upcoming--search-results.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/collections/search-results.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/events/light-microscopy.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/collections/toc.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/events/microscopy.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/collections/toc--single-level.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/events/search-results.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/content-views/article/full-text--big-header.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/events/was-home.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/content-views/article/full-text--no-feature.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/events/was-home--upcoming-events-widget.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/content-views/article/full-text--small-header.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/events/was-home--upcoming-events-widget--2-events.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/documentation/widgets/layout-engine.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/events/was-home--upcoming-events-widget--no-events.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/ekb/was-home--latest-ekb-widget.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/events/was-home--upcoming-events-widget--single-event.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/emails/confirm-newsletter.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/collapse-test-page.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/emails/download-and-register.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/improvements/featured-content.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/enhanced-registration/communication.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/publications/git-laboratory-journal/application-confirmed.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/enhanced-registration/complete-form.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/publications/git-laboratory-journal/issue-toc.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/enhanced-registration/complete-form-1.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/publications/git-laboratory-journal/issue-toc--access-denied.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/enhanced-registration/profile.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/publications/git-laboratory-journal/list-of-issues.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/enhanced-registration/registration.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/publications/git-laboratory-journal/publication-home.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/events/all-events--ondemand.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/publications/git-laboratory-journal/subscribe.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/events/all-events--ondemand--applied-filters.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/publications/git-laborportal/publication-home.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/events/all-events--ondemand--search-results.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/publications/imaging-and-microscopy/issue-toc.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/events/all-events--upcoming.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/publications/imaging-and-microscopy/publication-home.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/events/all-events--upcoming--applied-filters.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/publications/microscopy-and-analysis/issue-toc.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/events/all-events--upcoming--applied-filters--date.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/publications/microscopy-and-analysis/publication-home.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/events/all-events--upcoming--search-results.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/publications/microscopy-and-analysis/subscribe.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/events/light-microscopy.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/search/no-results.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/events/microscopy.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/search/search-results.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/events/search-results.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/search/search-results--keywords.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/events/was-home.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/search/search-results--sponsors.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/events/was-home--upcoming-events-widget.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/subjects/microscopy/light-microscopy.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/events/was-home--upcoming-events-widget--2-events.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/subjects/equipment.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/events/was-home--upcoming-events-widget--no-events.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/subjects/lab-automation.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/events/was-home--upcoming-events-widget--single-event.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/subjects/microscopy.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/products/full-text.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/subjects/sepsci.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/products/search-results.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/subjects/spectroscopy.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/products/was-home.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/z-archive/access-denied.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/registration-newsletter-optins/registration.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/z-archive/content-cards--contained-cropped.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/wol-on-was/was-home.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/z-archive/full-text--scroll-collapse.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/wol-on-was/was-home--1-cover.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/z-archive/full-text--toast-zone.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/wol-on-was/was-home--4-covers.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/z-archive/hub-integration.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/collapse-test-page.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/z-archive/registration.html</loc>
+        <loc>https://sallen-wiley.github.io/was/improvements/featured-content.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/z-archive/registration-contact-info.html</loc>
+        <loc>https://sallen-wiley.github.io/was/publications/git-laboratory-journal/application-confirmed.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/z-archive/subscriptions.html</loc>
+        <loc>https://sallen-wiley.github.io/was/publications/git-laboratory-journal/issue-toc.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/z-archive/was-home.html</loc>
+        <loc>https://sallen-wiley.github.io/was/publications/git-laboratory-journal/issue-toc--access-denied.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/z-archive/was-home--events.html</loc>
+        <loc>https://sallen-wiley.github.io/was/publications/git-laboratory-journal/list-of-issues.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/z-archive/webinar.html</loc>
+        <loc>https://sallen-wiley.github.io/was/publications/git-laboratory-journal/publication-home.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/index.html</loc>
+        <loc>https://sallen-wiley.github.io/was/publications/git-laboratory-journal/subscribe.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/was-home.html</loc>
+        <loc>https://sallen-wiley.github.io/was/publications/git-laborportal/publication-home.html</loc>
     </url>
     <url>
-        <loc>https://was.bss.design/was-home--de.html</loc>
+        <loc>https://sallen-wiley.github.io/was/publications/imaging-and-microscopy/issue-toc.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/publications/imaging-and-microscopy/publication-home.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/publications/microscopy-and-analysis/issue-toc.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/publications/microscopy-and-analysis/publication-home.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/publications/microscopy-and-analysis/subscribe.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/search/no-results.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/search/search-results.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/search/search-results--applied-filters.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/search/search-results--keywords.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/search/search-results--sponsored.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/subjects/microscopy/light-microscopy.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/subjects/equipment.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/subjects/lab-automation.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/subjects/microscopy.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/subjects/sepsci.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/subjects/spectroscopy.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/index.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/was-home.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/was/was-home--de.html</loc>
     </url>
 </urlset>
